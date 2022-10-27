@@ -1,0 +1,78 @@
+.post{
+    width:50%;
+    background-color: #84d47eef;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom:1%;
+}
+.post img{
+    width:100%;
+}
+.post h2{
+    padding: 10px;
+    text-align: center; 
+    color:rgb(14, 95, 42)
+
+}
+.post p{
+    padding-left: 5px ;
+}
+ body{
+    background-color: rgb(88, 189, 88);
+    margin:0;
+}
+header{
+    background-color: rgb(51, 179, 96);
+    position: sticky;
+    top:0;
+    margin-bottom:5px ;   
+}
+header ul{
+    list-style-type: none;
+    margin:0 0 0 15px;
+}
+footer{
+
+     
+     
+ background-color:rgb(27, 181, 63);
+ padding:10px;
+}
+footer ul{
+    display: flex;
+      justify-content: center ;
+    list-style-type: none;
+    margin:0 0 0 15px;
+}
+li{
+    display: flex;
+    margin:20px;
+}
+ header li{
+    float:left;
+    padding: 0px 10px 0px 10px;
+ }
+.button:hover{
+ background-color: #84d47eef;
+  cursor: pointer;
+}
+.disabled{
+    font-weight:bold;
+    background-color: #84d47eef;
+    pointer-events:none;
+}
+@media(max-width:480px){
+    .headerimg{
+        content:url(../img/PHONE.jpg);
+    }
+    header ul{
+        margin: 0;
+        padding: 0;
+        font-size: small;
+    }
+    .post{
+        width: 100%;
+        border-radius:0 ;
+    }
+}
