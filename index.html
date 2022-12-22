@@ -11,7 +11,7 @@
     
     <body>
         <img   class="headerimg" width="100%"   src="https://media.istockphoto.com/vectors/colorful-abstract-graffiti-street-art-seamless-pattern-vector-art-vector-id1278539067?k=20&m=1278539067&s=170667a&w=0&h=oMlZ7SxAcsStrJ7qbF08U8qn6QBKz39Cni94IFhJ4EM=">
-       <header>
+       <header> 
            <ul>
              <li>
                 <table>
@@ -44,46 +44,105 @@
                    </tr>
                 </table>
             </li>
-             <br style="clear:both">
+            <li class="button" >
+                <table>
+                    <tr>
+                        
+                         <td>
+                            <a href="galery.html"> <p>Галерея</p> </a>
+                        </td>
+                   </tr>
+                </table>
+            </li>
 
-          </ul>  
+          </ul> 
+          <button class="themebutton">
+             
+             <img width="30px" src="img/MOON.png">
+             <p>сменить тему</p>
+             
+
+          </button>
+          <br style="clear:both">
         </header>
+        
         <div class="post">
             <h2>Всем привет!</h2>
          
             <img  src="https://flomaster.club/uploads/posts/2022-07/1656784404_12-flomaster-club-p-risunki-na-stenakh-graffiti-krasivo-12.jpg">
              
-            <p>Привет это мой сайт где я хочу показать вам мои рисунки</p>
+            <p>Привет это мой сайт где я хочу показать вам рисунки граффити </p>
             <img  src="https://flomaster.club/uploads/posts/2022-07/1656784369_1-flomaster-club-p-risunki-na-stenakh-graffiti-krasivo-1.jpg">
             <p>Эти рисунки я не делал, но скоро будут и мои тоже </p>
             <img src="https://st.dg-home.ru/upload/blog_editor/dba/graffiti_s_ballonom_na_stene_gostinoj.jpg">
             <p>Мне очень понравились эти картинки я бы хотел научиться также рисовать. Эта картинка станет завершающей. Всем пока!</p>
             <!--
             <iframe  height="705" src="https://www.youtube.com/embed/nL3SLucxdnw" title="Graffiti - Tesh " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
-      -->
-        </div>
+      --><div class="like">
+        <span class="plus"><img height="20px" src="img/like.png" ></span>
+        <span class="counter">0</span>
+        <span class="minus"><img height="20px" src="img/deslike.png"></span>
+    </div>
+    <div class="comment-feed">
+            <h2>Комментарии</h2>
+            <ol class="comment-list">
+               <li class="user-comment"> Первый комментарий</li>     
+                                                             
+            </ol>
+            <form method="post" class="comment-form">
+                <div class="comment-inner">
+                    <input type="text" class="comment-field" placeholder="Комментарии" required id="comment-input">           
+                    
+                </div>
+                <button class="buttom"type="submit">
+                    Отправить
+                </button>
+
+            </form>
+ 
+         </div>
+    </div>
+        
+        
+        
+           
         <div class="post">
             <h2>КАК Я УЧУСЬ</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFeJhz9j9Tfu6KgNsuw3D5vS9apuyIX1PJAA&usqp=CAU">
-            <p>Как и все  граффити мэны.С начала я купил маркеры для скетчинга и начал рисовать на бумаге </p>
+            <p>Как и все люди,которые начинают рисовать граффити. Я купил маркеры для скетчинга и начал рисовать на бумаге </p>
             <img src="https://rusautolack.ru/storage/app/media/news//eec/markery_dlya_graffiti_alpha_4.jpg">
             <p>Вот такие скетчи я рисую сейчас. Но скоро я перейду на более высший уровень.</p>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_4VspYd1caftdnCRmgomUKpgG6t26aRj5dA&usqp=CAU">                     
-            <p>Под высшем уровнем я подрузомеваю о рисованию на стенах. Главное знать где можно рисовать, а где нет. Так заканчивается мое повествование о моем учении рисованию.</p>
-           
+            <p>Под высшем уровнем я подрузомеваю о рисованию на с.тенах. Главное знать где можно рисовать, а где нет. Так заканчивается мое повествование о моем учении рисованию.</p>
+            <div class="like">
+                <span  class="plus"><img height="20px" src="img/like.png" ></span>
+                <span class="counter">0</span>
+                <span class="minus"><img height="20px" src="img/deslike.png"></span>
+                </div>
+            
         </div>
         <footer>
             <ul>
                 <li>            
-            <img width="55"src="https://free-png.ru/wp-content/uploads/2020/04/VK_Blue_Logo_t-340x340.png"> 
+            <img  width="55"src="https://free-png.ru/wp-content/uploads/2020/04/VK_Blue_Logo_t-340x340.png"> 
             <a href="https://vk.com"> <p>VK group</p> </a>
         </li>
         <li>
-            <img width="55" src="https://gamemag.ru/images/imagemanager/cache/66/d525/66d525_discord-ddii.jpg">
+            <img  width="55" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-icon-24.png">
             <a  href="https://discord.com"> <p>Discord group </p>   </a> 
         </li>
             </ul>  
         </footer>
       
-    </body>
+    </body> 
+    <script src="js/themes.js">
+        
+        
+    </script>
+    <script src="js/likes.js"></script> 
+    <script src="js/comment.js"></script>
+
+
+
+
 </html>

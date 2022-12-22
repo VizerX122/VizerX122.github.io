@@ -1,0 +1,10 @@
+#gall{
+    position: relative;
+    padding-top: 50%;
+}
+#gall img{
+    position: absolute;
+    max-width: 25%;
+    max-height: 50%;
+    cursor: zoom-in;
+}
